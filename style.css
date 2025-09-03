@@ -226,8 +226,8 @@ body {
 
 .seccion_descripcion__imagen:hover,
 .seccion_descripcion__imagen:focus {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   padding: 10px;
   background-color: var(--texto-primario);
   left: 0;
@@ -393,7 +393,7 @@ body {
 .contenedor_tarjetas_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;       /*Cantidad de columnas*/
-  grid-template-rows: 1fr 1fr auto;              /*Cantidad de filas*/
+  grid-template-rows: 1fr auto;              /*Cantidad de filas*/
   gap: 2rem;
 }
 
